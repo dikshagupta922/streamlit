@@ -32,7 +32,7 @@ st.subheader('Class labels and their corresponding index number')
 st.write(pd.DataFrame({'Labels': ['Even','Odd']}))
 
 st.subheader('Prediction')
-if num%2 == 0:
+if INPUT_NUMBER%2 == 0:
     st.write('Even')
 else:
     st.write('Odd')
