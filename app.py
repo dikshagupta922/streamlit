@@ -1,13 +1,10 @@
 import streamlit as st
 import pandas as pd
-from sklearn import datasets
-from sklearn.ensemble import RandomForestClassifier
-import pickle
 
 st.write("""
-# Credit Card Approval Prediction App
+# UseCase: EvenOdd App
 
-This app predicts the credit card approval probablity
+This app checks whether a number is even or odd
 """)
 #Get Input
 
